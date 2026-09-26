@@ -1,0 +1,106 @@
+##1. Create identifier with string
+
+name="Bhavya"
+print(name)
+
+##2. Create identifier with float 
+
+price=300
+print(price)
+
+##3. Create identifier with integer. 
+
+age=25
+print(age)
+
+##4. Try out identifier naming rules.
+
+name="Bhavya"
+age=23
+print(name)
+print(age)
+
+##5. Convert integer to float
+
+a=100
+b=float(a)
+print(b)
+
+##6. Convert float to string
+
+m=23.0
+n=str(m)
+print(n)
+
+##7.convert string to integer
+
+a = "25"
+b = int(a)
+print(b)
+
+##8.convert float to integer
+
+i=45.0
+l=int(i)
+print(l)
+
+##9.Try out the arithmetic operations .
+
+x = 10
+y = 3
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x // y)
+print(x % y)
+print(x ** y)
+
+##10 . Try out comparison operations
+
+a = 10
+b = 5
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+##11 . Try out logical operation
+
+s = 10
+t = 5
+
+print(s > 5 and t < 10)
+print(s > 15 or t < 10)
+print(not(s > t))
+
+##12. Add two strings
+
+a="Welcome"
+b="Python"
+print(a+b)
+
+##13. Add two integers
+
+p=45
+q=65
+print(p+q)
+
+##14. Add integer and string 
+
+a = 10
+b = "20"
+
+print(str(a) + b)
+
+##15. Multiply string and integer
+
+x = "Hello "
+y = 3
+
+print(x * y)
+
