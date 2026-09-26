@@ -1,0 +1,152 @@
+##1) Print "HELLO WORLD!"
+print("HELLO WORLD!")
+
+##2) Print "Welcome to the world of Python"
+print("Welcome to the world of Python")
+
+##3)Print " This is an 'IMPORTANT' News"
+print(" This is an 'IMPORTANT' News")
+
+##4)Print " Good Book's"
+print(" Good Book's")
+
+##5)deci to hex conversion and binary conversion (hex and bin)
+n=47
+print(hex(n))
+print(bin(n))
+
+##6)Mathematical operators(+,-,*,/,//,%) and find the difference between division,modular division and floor divison
+m=55
+n=50
+print(m+n)
+print(m-n)
+print(m*n)
+print(m/n)
+print(m//n)
+print(m%n)
+
+##7)Seperate the given no and perform mathematical operations
+print("Were" + "wolf")
+print("Door" + "man")
+print("4" + "chan")
+print(str(4) + "chan")
+print(4 * "test")
+
+##8)swap two numbers
+x=3*4%5
+print(x)
+x=-3+4-7*8/5%10
+print(x)
+x=3
+y=6
+z=8
+test=(4*x+3)*(2*y+2*z-4)
+print(test)
+i=3
+j=4
+m=i*100+j*1
+print(m)
+mult=2
+sub=3
+good=4
+on=mult*sub/4-6/2+2/3*6/good
+print(on)
+
+
+##9)find the area, perimeter of square,rectangle,circle,triangle…
+m=30
+print(type(m))
+m="bhavya"
+print(type(m))
+m=4.45
+print(type(m))
+n=2+4j
+print(type(n))
+
+##10)Find the output
+print("Were" + "wolf")
+print("Door" + "man")
+print(str(4) + "chan")
+print(4 * "test")
+
+##11) single line variable and get input assigned.Print the values of variable seperately
+
+name,age,city = input("Enter name, age and city: ").split()
+
+print(name)
+print(age)
+print(city)
+
+##12)Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
+
+
+##13)Find the following output:
+##x=3*4%5
+##x=-3+4-7*8/5%10
+##test=(4x+3)(2y+2z-4)
+##m=i*100+j*10
+##on=mult*sub/4-6/2+2/3*6/good
+
+x=3*4%5
+print(x)
+
+x=-3+4-7*8/5%10
+print(x)
+
+x=1
+y=2
+z=3
+test=(4*x+3)*(2*y+2*z-4)
+print(test)
+
+i=5
+j=6
+m=i*100+j*10
+print(m)
+
+mult=2
+sub=3
+good=4
+on=mult*sub/4-6/2+2/3*6/good
+print(on)
+
+##14) on dividing a float number get only integer quotient output
+
+a = 10.5
+b = 2
+
+print(int(a // b))
+
+##15)find the type of data entered
+
+a = int(input("Enter a number: "))
+print(type(a))
+
+a = input("Enter something: ")
+print(type(a))
+
+##16)check the following conditions:get user input
+##a>b  and  a<c
+##a>=b or a<=c
+##a==b or b>c
+##b>15 and c<10 or a>50
+
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+print(a > b and a < c)
+print(a >= b or a <= c)
+print(a == b or b > c)
+print(b > 15 and c < 10 or a > 50)
+
+
+##17) get user input and find the largest and smallest number
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Largest =", max(a, b,))
+print("Smallest =", min(a, b,))
+
