@@ -1,0 +1,101 @@
+#for loop syntax
+
+for<variable>in range(start,stop,inc/dec)
+      #statement
+
+##2. print number 1 to 100 interms of 5 
+for i in range (1,101,5):
+   print(i)
+   
+##3. Write a Python program that accepts a word from the user and reverses it. 
+word=input("Enter a word:")
+reverse=word[::-1]
+print("Reversed word:",reverse)
+
+##4. Write a Python program that accepts a string and calculates the number of digits and letters. 
+
+m="Hello World"
+n="1133"
+print(is.alpha())
+print(is.digit())
+
+##5.  display odd numbers between 1 to 50
+for i in range (1,50,2):
+   print(i)
+   
+##7. Write a Python program to create the multiplication table (from 1 to 10) of a number.
+n=int(input("Enter a number: "))
+
+for i in range (1,11):
+   print(n,"x",i,"=",n*i)
+
+##9. display odd numbers between 1 to 50
+for i in range(1,51,2):
+    print(i)
+    
+##10.  Write a Python program to get the Fibonacci series between 0 and 50.
+m=0
+n=1
+ while m>=50:
+ print(m, end=" ")
+ m, n=n, m+n
+
+##11.Calculate the sum of all numbers from 1 to a given number
+n=int(input("Enter a number:"))
+
+for i in range(1,n+1):
+    n+=i
+    print(i)
+
+##12. Display numbers from -10 to -1 using for loop 
+for i in range(-10,0):
+    print(i)
+
+
+##13.Print First 10 natural numbers using while loop
+a=1
+while a<=10:
+   print(a)
+   a=a+1
+
+##15.Calculate the cube of all numbers from 1 to a given number 
+for i in range(1,11):
+  print(i*3)
+  
+##16.Reverse a given integer number
+n=50
+while n>=0:
+   print(n,end=" ")
+   n=n-1
+   
+##18. Write a while loop statement to print the following series 105, 98, 91 ………7 
+i=105
+while i >=7:
+   print(i)
+   i -=7
+
+##19. Write for loop statement to print the following series: 10, 20, 30 … … 300 
+for i in range (10,301,10):
+    print(i)
+
+##20.  Write a program to print first 20 natural number in reverse order using while loop
+
+i=20
+while i>=1:
+    print(i)
+    i=i-1
+   
+##21. Write a program to find the sum of the digits of a number accepted from the user.
+
+sum=0
+
+m=int(input("Enter a number:"))
+while m>0:
+    digit=m%10
+    sum=sum+digit
+    m=m//10
+print(sum)
+
+
+
+   
